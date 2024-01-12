@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <h3 style="text-align: center; font-size: 22px;">Sticky Notes 📝</h3>
+        <div class="upper">
+            <div class="sect">
+                <!-- <button id="remove">X</button> -->
+                <input type="text" id="title" placeholder=" Add A Title"><br>
+                <textarea name="text" id="content" cols="30" rows="10" placeholder="Add You Content..."></textarea>
+
+            </div>
+            <br>
+            <div class="button1">
+                <label for="color">Choose Color</label>
+                <input type="color" id="color" value="#90EE90">
+                <button class="button-75">Add A Note</button>
+            </div>
+
+        </div><br><br>
+        <h2 style="color:blue;font-family: cursive;text-align: center;">✨ Your Notes ✨</h2>
+        <div class="lower_section">
+            <h2 id="note">No Note Is Added Yet</h2>
+            <!-- <div class="card">
+                <h1>title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus assumenda numquam nihil
+                    excepturi! Eaque incidunt praesentium quibusdam provident odio molestiae.</p>
+            </div> -->
+        </div>
+    </div>
+
+
+
+    <script src="query.js"></script>
+</body>
+
+</html>
