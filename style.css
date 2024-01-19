@@ -12,6 +12,7 @@ background-size: cover;
     height: 200px;
     /* border: 1px solid red; */
     margin: 0% auto;
+    
    
     /* border-radius: 10px; */
     /* border-radius: 10px; */
@@ -33,6 +34,7 @@ background-size: cover;
     border: 2px solid blue;
     border-bottom: none;
     background-color:cornflowerblue;
+    /* background-image: url("https://th.bing.com/th/id/OIP.Ff4d4Pa4jCh9gXHTWYm8QgHaEK?rs=1&pid=ImgDetMain"); */
     /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
     /* border-radius: 10px; */
 }
@@ -47,6 +49,9 @@ background-size: cover;
     background-color: aquamarine;
     /* border: none; */
     border: 2px solid blue;
+    background-image: url("https://img.freepik.com/premium-photo/back-school-concept-top-view-photo-notepads-pen-pencilcase-mini-staplers-adhesive-tape-round-correction-tape-binder-clips-isolated-white-background-with-blank-space_352249-8996.jpg");
+    background-size: cover;
+    background-position: center;
     /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
     /* border-radius: 10px; */
     /* background-image: linear-gradient(135deg, #f34079 40%, #fc894d); */
@@ -68,7 +73,7 @@ margin-right: 5%;
 }
 .lower_section{
   display: flex;
-  gap:5px;
+  gap:8px;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -87,7 +92,9 @@ button{
     
 }
 .lower_section{
-    margin-top: 5%;
+    /* margin-top: 5%; */
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 
@@ -162,3 +169,20 @@ button{
  transform: scale(1.05);
 }
 
+
+/* @media  screen and (max-width:480px) {
+  .sect{
+    width: 200px;
+  }
+  .sect #title{
+    width: 200px;
+  }
+  .sect #content{
+    width: 200px;
+  }
+  .button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+} */

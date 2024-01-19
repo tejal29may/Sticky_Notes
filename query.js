@@ -43,7 +43,9 @@ btn.addEventListener("click",function(){
         if(e.target.innerText==="X"){
             e.target.parentElement.remove();
         }
+        
     })
+
    
 
 });
